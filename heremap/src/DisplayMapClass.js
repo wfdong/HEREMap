@@ -70,7 +70,7 @@ export class DisplayMapClass extends React.Component {
     return (
       // Set a height on the map so it will display
       <div>
-      <div ref={this.mapRef}  style={{ height: "90vh" }} />
+      <div ref={this.mapRef}  style={{ height: "100vh" }} />
       </div>
     );
   }
